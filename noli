@@ -9,9 +9,9 @@ local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 
 -- IDs das animações
-local idleAnimId = "rbxassetid://135419935358802"  -- ID da animação de parado
+local idleAnimId = "rbxassetid://83465205704188"  -- ID da animação de parado
 local walkAnimId = "rbxassetid://109700476007435"  -- ID da animação de andar
-local runAnimId = "rbxassetid://83465205704188"   -- ID da animação de correr
+local runAnimId = "rbxassetid://117451341682452"   -- ID da animação de correr
 
 -- Criar instâncias de animação
 local idleAnim = Instance.new("Animation")
